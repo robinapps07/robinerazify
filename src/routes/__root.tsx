@@ -21,6 +21,7 @@ export const Route = createRootRoute({
           "Remove Gemini Veo sparkles and Dola AI wordmarks from photos and videos. 100% private — processed in your browser.",
       },
       { name: "theme-color", content: "#0e1016" },
+   { name: "monetag", content: "d869c96e31a7c8e267edae2c3bac9827" },
      ],
     links: [
       { rel: "icon", type: "image/png", href: "/favicon.png" },
