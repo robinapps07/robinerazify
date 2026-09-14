@@ -41,8 +41,13 @@ export const Route = createRootRoute({
   component: () => (
     <html lang="en" className="dark antialiased" suppressHydrationWarning>
       <head>
-        <meta name="monetag" content="58559c55bfba347ebfc13403723ab363" />
         <HeadContent />
+        <script
+  src="https://quge5.com/88/tag.min.js"
+  data-zone="280678"
+  async
+  data-cfasync="false"
+/>
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
         <script dangerouslySetInnerHTML={{ __html: LANG_BOOT }} />
       </head>
