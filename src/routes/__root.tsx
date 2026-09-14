@@ -11,6 +11,7 @@ const APP_NAME = "Erazify";
 
 export const Route = createRootRoute({
   head: () => ({
+    <meta name="monetag" content="d869c96e31a7c8e267edae2c3bac9827">
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -21,7 +22,7 @@ export const Route = createRootRoute({
           "Remove Gemini Veo sparkles and Dola AI wordmarks from photos and videos. 100% private — processed in your browser.",
       },
       { name: "theme-color", content: "#0e1016" },
-      { name: "monetag", content: "58559c55bfba347ebfc13403723ab363" },
+     
     ],
     links: [
       { rel: "icon", type: "image/png", href: "/favicon.png" },
