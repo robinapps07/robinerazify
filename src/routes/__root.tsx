@@ -11,8 +11,7 @@ const APP_NAME = "Erazify";
 
 export const Route = createRootRoute({
   head: () => ({
-    <meta name="monetag" content="d869c96e31a7c8e267edae2c3bac9827">
-    meta: [
+     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: APP_NAME },
